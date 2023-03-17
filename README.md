@@ -21,7 +21,7 @@ pip install paddleocr
 
 Also must be installed the usual modules in computer vision: numpy, cv2, os, re, imutils, parabolic
 
-Once the project files have been downloaded and unzipped the test6Training.zip directory that contains the 117 test images. These images are named with your car license plate, which allows you to detect hits or misses in the detected license plate number.
+Once the project files have been downloaded and unzipped the test6Training.zip directory that contains the 117 test images( These images are named with their car license plate, which allows  to detect hits or misses in the detected license plate number):
 
 Line 10 of the GetNumberInternationalLicensePlate_RoboflowModel_Filters_PaddleOCR.py program must be assigned the assigned API_KEY
 
@@ -40,10 +40,7 @@ https://app.roboflow.com/?ref=roboflow-blog
 
 https://pypi.org/project/paddleocr/
 
-
 https://public.roboflow.com/object-detection/license-plates-us-eu/3
-
-
 
 https://medium.com/adevinta-tech-blog/text-in-image-2-0-improving-ocr-service-with-paddleocr-61614c886f93
 
