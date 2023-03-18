@@ -2,7 +2,7 @@
 This project detects the car license plate through a free Roboflow API, submits the detected car license plate image to a battery of filters and obtains the car license plate number using paddleOcr
 
 The performance, 103 hits in 117 test images, is similar to that obtained with the project:
-https://github.com/ablanco1950/LicensePlate_Yolov8_Filters_PaddleOCR. Both projects only differ in the detection of car license plates, one uses the Roboflow api and the other with a yolov8 model trained with a small number of Roboflow images (245 in the train).
+https://github.com/ablanco1950/LicensePlate_Yolov8_Filters_PaddleOCR. Both projects only differ in the detection of car license plates, one uses the Roboflow api and the other with a yolov8 model trained with a small number of Roboflow images (245 in the train, not augmented).
 
 Requirements:
 
