@@ -69,6 +69,8 @@ As a maximum number of snapshots of 10 has been set (LimitSnapshot=10 parameter 
 
 The program is prepared to run in a time of 800 seconds (parameter: TimeLimit) so you have to wait that time until it ends.
 
+The results are different but similar to those obtained in the project https://github.com/ablanco1950/LicensePlate_Yolov8_Filters_PaddleOCR
+
 Other test videos can be downloaded from the addresses indicated in the program and in the references section.
 
 
