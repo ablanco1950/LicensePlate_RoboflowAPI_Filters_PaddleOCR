@@ -108,3 +108,11 @@ https://datasmarts.net/en/how-to-use-the-keypoint-detector-mser-in-opencv/
 https://felipemeganha.medium.com/detecting-handwriting-regions-with-opencv-and-python-ff0b1050aa4e
 
 https://github.com/victorgzv/Lighting-correction-with-OpenCV
+
+Projects with videos to download to test:
+
+https://github.com/anmspro/Traffic-Signal-Violation-Detection-System/tree/master/Resources "Traffic IP Camera video.mp4"
+
+https://github.com/hasaan21/Car-Number-Plate-Recognition-Sysytem "vid.mp4"
+
+//www.pexels.com/video/video-of-famous-landmark-on-a-city-during-daytime-1721294/ "Pexels Videos 1721294.mp4"
