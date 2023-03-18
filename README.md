@@ -32,6 +32,45 @@ The successes and failures that are being detected and a final summary are indic
 
 The LicenseResults.txt file shows the detected and real license plates.
 
+The video version is also included:
+
+VIDEOGetNumberInternationalLicensePlate_RoboflowModel_Filters_PaddleOCR.py
+
+operating on the attached video:
+
+Traffic IP Camera video.mp4
+
+downloaded from project: https://github.com/anmspro/Traffic-Signal-Violation-Detection-System/tree/master/Resources
+
+In its execution, on the monitor screen, the detected license plates are detailed with a summary at the end.
+
+Two files are obtained:
+
+VIDEOLicenseResults,txt with the registration of license plates detected with a lot of noise.
+
+VIDEOLicenseSummary.txt with the following results, which seem pretty tight as can be seen visually from the video.
+
+A8254S,434,911.4710686206818
+
+AR606L,43,85.25327444076538
+
+AE670S,43,87.82502818107605
+
+APHI88,26,53.72074317932129
+
+A968B6,13,32.9463050365448
+
+AV6190,34,61.20434832572937
+
+The first field is the license plate detected and the second is the number of snapshots of that license plate.
+
+As a maximum number of snapshots of 10 has been set (LimitSnapshot=10 parameter in the program), to avoid noise, the license plate of the A96886 car that was going faster and that only recorded one snapshot does not appear (it can be checked in the VIDEOLicenseResults.txt logging file)
+
+The program is prepared to run in a time of 800 seconds (parameter: TimeLimit) so you have to wait that time until it ends.
+
+Other test videos can be downloaded from the addresses indicated in the program and in the references section.
+
+
 References:
 
 https://blog.roboflow.com/how-to-crop-computer-vision-model-predictions/
