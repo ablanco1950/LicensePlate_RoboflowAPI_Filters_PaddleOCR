@@ -26,6 +26,7 @@ Once the project files have been downloaded and unzipped the test6Training.zip d
 Line 10 of the GetNumberInternationalLicensePlate_RoboflowModel_Filters_PaddleOCR.py program must be assigned the assigned API_KEY
 
 The program will then be executed:
+
 GetNumberInternationalLicensePlate_RoboflowModel_Filters_PaddleOCR.py
 
 The successes and failures that are being detected and a final summary are indicated on the monitor screen.
@@ -34,7 +35,7 @@ The LicenseResults.txt file shows the detected and real license plates.
 
 The video version is also included:
 
-VIDEOGetNumberInternationalLicensePlate_RoboflowModel_Filters_PaddleOCR.py
+VIDEOGetNumberInternationalLicensePlate_RoboflowModel_Filters_PaddleOCR.py (also needs to put the API_KEY in instruction 11)
 
 operating on the attached video:
 
@@ -64,7 +65,7 @@ AV6190,34,61.20434832572937
 
 The first field is the license plate detected and the second is the number of snapshots of that license plate.
 
-As a maximum number of snapshots of 10 has been set (LimitSnapshot=10 parameter in the program), to avoid noise, the license plate of the A96886 car that was going faster and that only recorded one snapshot does not appear (it can be checked in the VIDEOLicenseResults.txt logging file)
+As a maximum number of snapshots of 10 has been set (LimitSnapshot=10 parameter in the program), to avoid noise, the license plate of the A3K961 car and that only recorded two snapshot, does not appear (it can be checked in the VIDEOLicenseResults.txt logging file)
 
 The program is prepared to run in a time of 800 seconds (parameter: TimeLimit) so you have to wait that time until it ends.
 
