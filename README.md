@@ -86,6 +86,8 @@ https://public.roboflow.com/object-detection/license-plates-us-eu/3
 
 https://medium.com/adevinta-tech-blog/text-in-image-2-0-improving-ocr-service-with-paddleocr-61614c886f93
 
+https://machinelearningprojects.net/number-plate-detection-using-yolov7/
+
 https://github.com/ablanco1950/LicensePlate_Yolov8_MaxFilters
 
 filters:
