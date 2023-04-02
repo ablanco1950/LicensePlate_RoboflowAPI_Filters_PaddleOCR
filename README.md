@@ -35,7 +35,7 @@ The LicenseResults.txt file shows the detected and real license plates.
 
 The video version is also included:
 
-VIDEOGetNumberInternationalLicensePlate_RoboflowModel_Filters_PaddleOCR.py (also needs to put the API_KEY in instruction 11)
+VIDEOGetNumberInternationalLicensePlate_RoboflowModel_Filters_PaddleOCR_Demonstration.py (also needs to put the API_KEY in instruction 11)
 
 operating on the attached video:
 
@@ -43,33 +43,39 @@ Traffic IP Camera video.mp4
 
 downloaded from project: https://github.com/anmspro/Traffic-Signal-Violation-Detection-System/tree/master/Resources
 
-In its execution, on the monitor screen, the detected license plates are detailed with a summary at the end.
+In its execution, on the monitor screen, the detected license plates are detailed with a summary at the end, and images with delected plates
 
-Two files are obtained:
+forming a video.
+
+Thre files are obtained:
 
 VIDEOLicenseResults,txt with the registration of license plates detected with a lot of noise.
 
 VIDEOLicenseSummary.txt with the following results, which seem pretty tight as can be seen visually from the video.
 
-A8254S,434,911.4710686206818
 
-AR606L,43,85.25327444076538
+A8254S snapshots: 44 Duration = 86.52198147773743
 
-AE670S,43,87.82502818107605
+AR606L snapshots: 5 Duration = 4.421922922134399
 
-APHI88,26,53.72074317932129
+AE670S snapshots: 5 Duration = 6.123754978179932
 
-A968B6,13,32.9463050365448
+AV6190 snapshots: 5 Duration = 6.075385808944702
 
-AV6190,34,61.20434832572937
 
 The first field is the license plate detected and the second is the number of snapshots of that license plate.
 
-As a maximum number of snapshots of 10 has been set (LimitSnapshot=10 parameter in the program), to avoid noise, the license plate of the A3K961 car and that only recorded two snapshot, does not appear (it can be checked in the VIDEOLicenseResults.txt logging file)
+As a maximum number of snapshots of 5 has been set (LimitSnapshot=5 parameter in the program), to avoid noise, the license plates of the cars A3K961 and AP8I88 do not appear (although it can be verified that they have been recorded in the VIDEOLicenseResults.txt registry file)
 
-The program is prepared to run in a time of 800 seconds (parameter: TimeLimit) so you have to wait that time until it ends.
+The program is prepared to run in a time of 800 seconds (parameter: TimeLimit) so you have to wait that time until it ends or pres the q key.
 
 The results are different but similar to those obtained in the project https://github.com/ablanco1950/LicensePlate_Yolov8_Filters_PaddleOCR
+
+The video demonstration.mp4 is also produced, which allows evaluating license plate recognition in a more apparent way.
+
+Two videos of test results: demonstration1.mp4 and demonstration2.mp4 are attached.
+
+More precise and exploitable results, although less apparent and more slowly, are obtained by executing VIDEOGetNumberInternationalLicensePlate_RoboflowModel_Filters_PaddleOCR.py
 
 Other test videos can be downloaded from the addresses indicated in the program and in the references section.
 
