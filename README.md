@@ -47,7 +47,7 @@ In its execution, on the monitor screen, the detected license plates are detaile
 
 forming a video.
 
-Thre files are obtained:
+Three files are obtained:
 
 VIDEOLicenseResults,txt with the registration of license plates detected with a lot of noise.
 
